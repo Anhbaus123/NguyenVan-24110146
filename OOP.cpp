@@ -1,3 +1,8 @@
+//Student : Nguyen Van
+//ID: 24110146
+//Object : Build a simple system to manage different types of vehicles in a transportation company.
+//Use OOP concepts in C++ to design and implement the system.
+//Using LLMs to assist in code generation and problem-solving (Chat GPT).
 #include <iostream>
 #include <string>
 using namespace std;
@@ -92,3 +97,14 @@ int main() {
 
     return 0;
 }
+/*
+Reflection:
+
+In this assignment, I applied object-oriented programming (OOP) concepts in C++ to design and implement a simple vehicle management system. I started by analyzing the real-world requirement: the transportation company needs to manage different types of vehicles. From this, I identified the main entity, which is a Vehicle class, and defined its essential attributes such as type, maximum speed, color, and fuel type. I also identified the behaviors, including accelerating and displaying information.
+
+One challenge I faced was ensuring the program could handle invalid inputs, for example when the user enters a negative value for speed. To solve this, I added input validation logic in both the constructor and setter methods. Another challenge was making the code easy to extend in case more attributes or methods are needed. I addressed this by following good OOP practices: encapsulation with private attributes, public getter and setter methods, and meaningful method names using CamelCase.
+
+Using OOP concepts helped me clearly separate the data (attributes) and behavior (methods) of the Vehicle entity. It also made the code reusable: I could easily create multiple objects such as Car, Truck, and Motorcycle without duplicating logic. The structure allows future extensions, for example adding subclasses or new features.
+
+Overall, this assignment reinforced my understanding of how to translate a real-world requirement into a C++ class, create objects, and use methods to represent actions. It showed me the strength of OOP in making programs modular, reusable, and easier to maintain.
+*/
